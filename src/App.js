@@ -1,17 +1,21 @@
-import Navbar from "./components/Navbar";
-import {Welcome} from "./components/Welcome";
-import Offerings from "./components/Offerings";
-import About from "./components/About";
-import ContactUs from "./components/ContactUs"
+
+import { About } from './components/About';
+import { ContactUs } from './components/ContactUs';
+import Footer from './components/Footer';
+import { Navbar } from './components/Navbar';
+import { Offerings } from './components/Offerings';
+import Welcome from './components/Welcome';
+
 function App() {
   return (
-    <>
-    <Navbar/>
-   <Welcome/>
-    <Offerings/>
-    <About/>
-    <ContactUs/>
-    </>
+    <div className="App">
+      <Navbar />
+      <Welcome />
+      <Offerings />
+      <About />
+      <ContactUs />
+      <Footer />
+    </div>
   );
 }
 
